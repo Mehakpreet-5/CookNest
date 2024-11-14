@@ -26,7 +26,8 @@ app.use('/', Adminrouter);
 app.use('/', AdminOrder);
 app.use('/', OtpRoute);
 const corsOption = {
-  origin: "http://localhost:5173",
+  // origin: "http://localhost:5173", https://fastidious-paletas-636520.netlify.app/
+  origin: "https://fastidious-paletas-636520.netlify.app/",
   methods: "GET, POST,PUT,DELETE,PATCH, HEAD",
   credentials : true,
 }
